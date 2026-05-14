@@ -1,5 +1,6 @@
 "use client";
-import React, { createContext, useContext, useEffect, useState, useCallback } from "react";
+
+import React, { createContext, useCallback, useContext, useEffect, useState } from "react";
 import { CartItem, Product } from "@/lib/types";
 
 interface CartContextType {
